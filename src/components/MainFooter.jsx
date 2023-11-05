@@ -22,8 +22,8 @@ const MainFooter = () => {
                             <div className='flex justify-start items-center  h-full w-[80%]'>
                                 <img src="/images/reward.svg" className='w-[15rem] h-[15rem]' alt="" />
                                 <div className='flex flex-col justify-center items-start text-start h-full w-full text-white font-bold text-2xl'>
-                                    <p>25+</p>
-                                    <p>Yıllık Deneyim </p>
+                                    <h3>25+</h3>
+                                    <h3>Yıllık Deneyim </h3>
                                 </div>
                             </div>
 
@@ -33,8 +33,8 @@ const MainFooter = () => {
                         <div className='flex justify-start items-center  h-full w-[80%]'>
                             <img src="/images/doc.svg" className='w-[15rem] h-[15rem]' alt="" />
                             <div className='flex flex-col justify-center items-start text-start h-full w-full text-white font-bold text-2xl' >
-                                <p>5,000+</p>
-                                <p>Cerrahi Operasyon</p>
+                                <h3>5,000+</h3>
+                                <h3>Cerrahi Operasyon</h3>
                             </div>
                         </div>
                     </div>
@@ -43,8 +43,8 @@ const MainFooter = () => {
                             <div className='flex justify-start items-center  h-full w-[80%]'>
                                 <img src="/images/docpap.svg" className='w-[15rem] h-[15rem]' alt="" />
                                 <div className='flex flex-col justify-center items-start text-start h-full w-full text-white font-bold text-2xl'>
-                                    <p>40+</p>
-                                    <p>Ülke Sayısı </p>
+                                    <h3>40+</h3>
+                                    <h3>Ülke Sayısı </h3>
                                 </div>
                             </div>
 
@@ -89,7 +89,7 @@ const MainFooter = () => {
 
                 <div className='text-stone-700 flex justify-center items-start h-full w-full  max-xl:hidden my-[10rem]'>
                     <div className='flex flex-col justify-center items-center h-full w-1/3 text-sm'>
-                        <p className='flex justify-start items-center h-[10%] w-[40%] text-left font-bold'>HAKKIMIZDA</p>
+                        <h2 className='flex justify-start items-center h-[10%] w-[40%] text-left font-bold'>HAKKIMIZDA</h2>
                         <p className='flex justify-start items-start h-full w-[40%] text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elexcepturi. Nostrum qui consequuntur odio dolore nulla placeat accusamus.Lorem, Animi sunt ratione pariatur, neque iure suscipit ipsa modi, accusantium sequi repellendus blanditiis dolor temporibus laboriosam, adipisci incidunt vitae minus expedita? Error.</p>
                     </div>
                     <div></div>
@@ -130,7 +130,7 @@ const MainFooter = () => {
                     </div>
                     <div className='flex flex-col justify-start items-center h-[60%] w-1/3 text-sm '>
 
-                        <p className='flex justify-center items-center h-[10%] w-full text-left font-bold'>E-BÜLTEN</p>
+                        <h4 className='flex justify-center items-center h-[10%] w-full text-left font-bold'>E-BÜLTEN</h4>
                         <p className='flex justify-start items-center h-[20%] w-[60%] text-left'>Haftalık haberler ve güncellemeler için kaydolun</p>
                         <p className='flex justify-start items-center h-[10%] w-[60%] text-left'>E-mail</p>
                         <div className='flex flex-col justify-start items-start h-full w-[60%]'>
