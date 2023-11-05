@@ -55,7 +55,7 @@ const MainBodyHeadMobil = () => {
         <div className='z-40 flex flex-col justify-center items-center h-full w-full '>
             <div className={`z-50 flex justify-center items-center h-[5vh] w-full ${acilis ? "bg-white" : "bg-surg"} z-50`}>
                 <FiChevronsDown onClick={acil} className={`z-50 text-stone-700 w-[2rem] h-[2rem] ${acilis ? "hidden" : ""}`} />
-                <FiChevronsUp onClick={acil} className={`z-50 text-stone-700 w-[2rem] h-[2rem]  ${acilis ? "bg-blue-400 duration-500 text-white w-full h-full" : "duration-500 hidden"}`} />
+                <FiChevronsUp onClick={acil} className={`z-50 text-stone-700 w-[2rem] h-[2rem]  ${acilis ? "bg-karelaci duration-500 text-white w-full h-full" : "duration-500 hidden"}`} />
             </div>
 
             <div className={`flex  justify-center items-center duration-700 ${acilis ? "h-[0vh]" : "h-[85vh]"} w-full `}>
@@ -65,9 +65,9 @@ const MainBodyHeadMobil = () => {
 
                     <div className=' absolute rounded-3xl w-[65%] h-[40%] bg-opacity-50 flex justify-center items-center bg-karelaci z-50'>
                         <div className='flex flex-col justify-center items-center h-full w-full text-center '>
-                            <p className='text-[1.4rem] text-white'>GÜZELLİĞİN</p>
-                            <p className='text-[1.4rem] text-white'>KALBİNE</p>
-                            <p className='text-[1.4rem] text-white'>HOŞGELDİNİZ!</p>
+                            <h2 className='text-[1.4rem] text-white'>GÜZELLİĞİN</h2>
+                            <h2 className='text-[1.4rem] text-white'>KALBİNE</h2>
+                            <h2 className='text-[1.4rem] text-white'>HOŞGELDİNİZ!</h2>
                             <br />
                             <p className='w-[75%] text-[0.6rem] text-white'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ea, architecto tenetur accusantium excepturi velit commodi facilis aspernatur quae vel? Quae error ad deleniti alias quam odit. Veritatis, quasi officia.</p>
                         </div>
