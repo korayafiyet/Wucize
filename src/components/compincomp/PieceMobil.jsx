@@ -43,11 +43,11 @@ const PieceMobil = () => {
     }
     const acilis = useSelector((state) => state.open.value)
     return (
-        <ul className={`flex  justify-around items-center h-full w-[50%] my-[2rem] ${acilis ? "hidden" : ""}`}>
-            <li onClick={say1} className={` cursor-pointer flex justify-center items-center w-[1.5rem] h-[1.5rem] rounded-full duration-500 bg-blue-400 ${wpkay1 ? "border-[0.1rem] border-black" : ""}`}></li>
+        <ul className={`flex  justify-around items-center h-full w-[50%] my-[2rem]  ${acilis ? "hidden" : ""}`}>
+            <li onClick={say1} className={` cursor-pointer flex justify-center items-center w-[1.5rem] h-[1.5rem] rounded-full duration-500 bg-karelaci ${wpkay1 ? "border-[0.1rem] border-black" : ""}`}></li>
 
-            <li onClick={say2} className={` cursor-pointer flex justify-center items-center w-[1.5rem] h-[1.5rem] rounded-full duration-500 bg-blue-400 ${wpkay2 ? "border-[0.1rem] border-black" : ""}`}></li>
-            <li onClick={say3} className={` cursor-pointer flex justify-center items-center w-[1.5rem] h-[1.5rem] rounded-full duration-500 bg-blue-400 ${wpkay3 ? "border-[0.1rem] border-black" : ""}`}></li>
+            <li onClick={say2} className={` cursor-pointer flex justify-center items-center w-[1.5rem] h-[1.5rem] rounded-full duration-500 bg-karelaci ${wpkay2 ? "border-[0.1rem] border-black" : ""}`}></li>
+            <li onClick={say3} className={` cursor-pointer flex justify-center items-center w-[1.5rem] h-[1.5rem] rounded-full duration-500 bg-karelaci ${wpkay3 ? "border-[0.1rem] border-black" : ""}`}></li>
 
         </ul>
     )
