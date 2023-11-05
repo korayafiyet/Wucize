@@ -56,7 +56,7 @@ const MainFull = () => {
             <div className='flex justify-center items-center w-full max-lg:hidden'>
                 <Piece />
             </div>
-            <div className='flex justify-center items-center h-full w-full lg:hidden bg-red-50'>
+            <div className='flex justify-center items-center h-full w-full lg:hidden bg-üstgri'>
                 <PieceMobil />
             </div>
             {/*  */}
