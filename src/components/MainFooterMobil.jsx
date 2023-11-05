@@ -48,9 +48,9 @@ const MainFooterMobil = () => {
 
                         <div className='flex flex-col justify-center items-center h-full w-[80%]'>
 
-                            <div className='border-2  flex flex-col justify-center items-center h-[50%] w-[100%]'>
+                            <div className='flex flex-col justify-center items-center h-[50%] w-[100%]'>
                                 <h2 className='flex justify-start items-center h-[10%] w-full text-left font-bold'>HAKKIMIZDA</h2>
-                                <p className='flex justify-start items-start h-full w-full text-left text-[60%]'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sunt ratione pariatur, neque iure suscipit ipsa modi, accusantium sequi repellendus blanditiis dolor temporibus laboriosam, adipisci incidunt vitae minus expedita? Error.</p>
+                                <p className='flex justify-start items-start h-full w-full text-left text-[60%] '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sunt ratione pariatur, neque iure suscipit ipsa modi, accusantium sequi repellendus blanditiis dolor temporibus laboriosam, adipisci incidunt vitae minus expedita? Error.</p>
                             </div>
                             <div className='flex justify-center items-center h-[0.1rem] w-full bg-stone-700'></div>
                             <div className='flex flex-col justify-center items-center h-[15rem] w-[100%] '>
