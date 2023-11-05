@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.custom-shape-divider-bottom-1699041665 {
+  /* background-image: url("../public/Images/surgery.png"); */
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1699041665 svg {
+
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 155px;
+}
+
+.custom-shape-divider-bottom-1699041665 .shape-fill {
+  position: relative;
+  fill: #FFFFFF;
+}
+
+.gorselmob {
+  background-repeat: no-repeat;
+background-position: bottom;
+  background-size: 100%;
+
+
+  /* background-attachment: fixed; */
+
+}
+.gorsel {
+  background-repeat: no-repeat;
+background-position: top;
+  background-size: 100%;
+
+
+  /* background-attachment: fixed; */
+
+}
+
+
+.scroll{
+  overflow: hidden;
+  display: grid;
+}
+
+.ani1 {
+  animation-duration: 1.2s;
+  animation-timing-function: 0.2s;
+  animation-name: anibir;
+
+  animation-fill-mode: both;
+}
+
+@keyframes anibir {
+  0% {
+    opacity: 0%;
+  }
+  50% {
+    opacity: 0%;
+    
+  }
+
+
+
+  100% {
+    opacity: 100%;
+  }
+}
+.ani2 {
+  animation-duration: 1.2s;
+  animation-timing-function: 0.2s;
+  animation-name: aniiki;
+
+  animation-fill-mode: both;
+}
+
+@keyframes aniiki{
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+.ani3 {
+  animation-duration: 1.2s;
+  animation-timing-function: 0.2s;
+  animation-name: aniuc;
+
+  animation-fill-mode: both;
+}
+
+@keyframes aniuc {
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 100%;
+  }
+}
+
