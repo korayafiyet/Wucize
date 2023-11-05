@@ -12,7 +12,7 @@ const surgeryvucutmobil = ({ sayi1, sayi2, sayi3, yol }) => {
 
                 </div>
                 <div className='flex flex-col justify-start items-center text-center h-[30%] w-full'>
-                    <p className='font-semibold'>Vücut Estetiği</p>
+                    <h5 className='font-semibold'>Vücut Estetiği</h5>
                     <p className='text-[10px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quo a! Quo, omnis ex. Nihil reprehenderit culpa corporis fugit error soluta! Suscipit distinctio dolore aut. Dolor nemo ratione ex dignissimos!</p>
                 </div>
             </div>
@@ -27,7 +27,7 @@ const surgeryvucutmobil = ({ sayi1, sayi2, sayi3, yol }) => {
 
                 </div>
                 <div className='flex flex-col justify-start items-center text-center h-[30%] w-full'>
-                    <p className='font-semibold'>Vücut Estetiği</p>
+                    <h5 className='font-semibold'>Vücut Estetiği</h5>
                     <p className='text-[10px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quo a! Quo, omnis ex. Nihil reprehenderit culpa corporis fugit error soluta! Suscipit distinctio dolore aut. Dolor nemo ratione ex dignissimos!</p>
                 </div>
             </div>
@@ -42,7 +42,7 @@ const surgeryvucutmobil = ({ sayi1, sayi2, sayi3, yol }) => {
 
                 </div>
                 <div className='flex flex-col justify-start items-center text-center h-[30%] w-full'>
-                    <p className='font-semibold'>Vücut Estetiği</p>
+                    <h5 className='font-semibold'>Vücut Estetiği</h5>
                     <p className='text-[10px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, quo a! Quo, omnis ex. Nihil reprehenderit culpa corporis fugit error soluta! Suscipit distinctio dolore aut. Dolor nemo ratione ex dignissimos!</p>
                 </div>
             </div>
