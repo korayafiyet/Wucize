@@ -116,12 +116,12 @@ const MainBodyMobil = () => {
     }
     const acilis = useSelector((state) => state.open.value)
     return (
-        <div className={`flex justify-center items-center h-full w-full bg-üstgri  ${acilis?"":""}`}>
+        <div className={`flex justify-center items-center h-full w-full bg-üstgri  ${acilis ? "" : ""}`}>
             <div className='flex flex-col justify-center items-center h-full w-full container'>
                 <div className='flex justify-center items-center h-full w-full'>
-                    <p className='font-hizmet text-stone-700 text-[2rem] border-b-[0.1rem] border-karelaci'>Hizmetlerimiz</p>
+                    <h3 className='font-hizmet text-stone-700 text-[2rem] border-b-[0.1rem] border-karelaci'>Hizmetlerimiz</h3>
                 </div>
-                
+
                 <div className='flex justify-center items-center h-full w-full my-[2rem] z-50'>
                     <ul className='font-bold text-stone-700 flex justify-around items-center h-full w-[90%] z-50'>
                         <li onClick={yüz} className={`flex cursor-pointer justify-center items-center  w-[4rem] h-[1.5rem] duration-500 ${hizmet1 ? "bg-karelaci rounded-md text-white" : "hover:text-karelaci duration-300 cursor-pointer"} `}>Yüz</li>
@@ -129,7 +129,7 @@ const MainBodyMobil = () => {
                         <li onClick={vücut} className={`flex cursor-pointer justify-center items-center  w-[4rem] h-[1.5rem] duration-500 ${hizmet3 ? "bg-karelaci rounded-md text-white" : "hover:text-karelaci duration-300 cursor-pointer"} `}>Vücut</li>
                     </ul>
                 </div>
-                
+
                 {/*  */}
                 <div className='flex justify-center items-center h-full w-[80%] '>
                     <div className={`${x} duration-1000`}><SurgeryMobil sayi1={a} sayi2={b} sayi3={c} yol={yol} /></div>
