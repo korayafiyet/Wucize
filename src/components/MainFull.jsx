@@ -27,7 +27,7 @@ const MainFull = () => {
                     </div>
                     <div className='h-[3rem] w-[0.2rem] bg-stone-700 mx-[1rem]'></div>
                     <div className='h-[3rem] bg-blue-400 p-2 text-white font-bold w-content flex justify-center items-center cursor-pointer'>
-                        <p>RANDEVU AL</p>
+                        <h3>RANDEVU AL</h3>
                     </div>
                 </div>
                 <div className={`flex justify-center items-center h-full w-full  ${acilis ? "" : "hidden"}`}>
