@@ -89,7 +89,7 @@ const MainFooter = () => {
 
                 <div className='text-stone-700 flex justify-center items-start h-full w-full  max-xl:hidden my-[10rem]'>
                     <div className='flex flex-col justify-center items-center h-full w-1/3 text-sm'>
-                        <h2 className='flex justify-start items-center h-[10%] w-[40%] text-left font-bold'>HAKKIMIZDA</h2>
+                        <h2 className='flex justify-start items-center h-[10%] w-[40%] text-left font-bold '>HAKKIMIZDA</h2>
                         <p className='flex justify-start items-start h-full w-[40%] text-left'>Lorem ipsum dolor sit amet consectetur adipisicing elexcepturi. Nostrum qui consequuntur odio dolore nulla placeat accusamus.Lorem, Animi sunt ratione pariatur, neque iure suscipit ipsa modi, accusantium sequi repellendus blanditiis dolor temporibus laboriosam, adipisci incidunt vitae minus expedita? Error.</p>
                     </div>
                     <div></div>
