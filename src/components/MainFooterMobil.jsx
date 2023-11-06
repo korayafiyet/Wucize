@@ -3,7 +3,6 @@ import { GrLocation } from 'react-icons/gr';
 import { BiSolidPhoneCall } from 'react-icons/bi';
 import { LuMail } from 'react-icons/lu';
 import { RiArrowRightDoubleFill } from 'react-icons/ri';
-
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { BiLogoFacebook } from 'react-icons/bi';
@@ -22,7 +21,6 @@ const MainFooterMobil = () => {
                             </div>
                         </div>
                         <div className='flex justify-center items-center h-[0.2rem] w-[70%] bg-white'></div>
-
                         <div className='flex justify-center items-center h-full w-full'>
                             <img src="/images/doc.svg" className='w-[12rem] h-[12rem]' alt="" />
                             <div className='flex flex-col justify-center items-start text-start h-full w-full text-white font-bold text-md'>
@@ -38,23 +36,17 @@ const MainFooterMobil = () => {
                                 <h2>Ülke Sayısı </h2>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div className='text-stone-700 flex flex-col justify-center items-center h-full w-full xl:hidden my-[2rem]'>
-
-
                     <div className='flex  justify-center items-center h-fullw-full'>
-
                         <div className='flex flex-col justify-center items-center h-full w-[80%]'>
-
                             <div className='flex flex-col justify-center items-center h-[50%] w-[100%]'>
                                 <h2 className='flex justify-start items-center h-[10%] w-full text-left font-bold'>HAKKIMIZDA</h2>
                                 <p className='flex justify-start items-start h-full w-full text-left text-[60%] '>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi sunt ratione pariatur, neque iure suscipit ipsa modi, accusantium sequi repellendus blanditiis dolor temporibus laboriosam, adipisci incidunt vitae minus expedita? Error.</p>
                             </div>
                             <div className='flex justify-center items-center h-[0.1rem] w-full bg-stone-700'></div>
                             <div className='flex flex-col justify-center items-center h-[15rem] w-[100%] '>
-
                                 <div className='flex justify-center items-center h-[5rem] w-full'>
                                     <div className='flex justify-center items-center h-full w-content px-3'>
                                         <GrLocation className='h-[2rem] w-[2rem] text-stone-700' />
@@ -83,12 +75,9 @@ const MainFooterMobil = () => {
                                         <p className='text-[60%]'>info@dentalcare.com</p>
                                     </div>
                                 </div>
-
-
                             </div>
                             <div className='flex justify-center items-center h-[0.1rem] w-full bg-stone-700'></div>
                             <div className=' flex flex-col justify-center items-center h-[50%] w-full'>
-
                                 <h3 className='flex justify-start items-center h-[10%] w-[100%] text-left font-bold'>E-BÜLTEN</h3>
                                 <p className='flex justify-start items-center h-[20%] w-[100%] text-left text-[70%]'>Haftalık haberler ve güncellemeler için kaydolun</p>
                                 <p className='flex justify-start items-center h-[10%] w-[100%] text-left text-[70%]'>E-mail</p>
@@ -102,22 +91,11 @@ const MainFooterMobil = () => {
                                         <li className='flex justify-center items-center h-full w-[2rem]'><BiLogoFacebook className='w-[1.5rem] h-[1.5rem]' /></li>
                                         <li className='flex justify-center items-center h-full w-[2rem]'><AiOutlineTwitter className='w-[1.5rem] h-[1.5rem]' /></li>
                                         <li className='flex justify-center items-center h-full w-[2rem]'><AiOutlineInstagram className='w-[1.5rem] h-[1.5rem]' /></li>
-
                                     </ul>
                                 </div>
-
                             </div>
-
                         </div>
-
                     </div>
-
-
-
-
-
-
-
                 </div>
             </div>
         </div>
