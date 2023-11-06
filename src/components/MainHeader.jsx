@@ -8,7 +8,6 @@ const MainHeader = () => {
         <div className='z-50 flex justify-center items-center h-full w-full bg-white'>
             <div className='h-full w-full flex justify-center items-center'>
                 <div className='sec1 flex justify-center items-center h-full w-full'>
-
                     <div className='sec11 p-8 flex justify-start items-center h-full w-full'>
                         <div className='p-2 border-r-[0.07rem] border-stone-700'>
                             <AiOutlineInstagram className='text-stone-700 w-[1.5rem] h-[1.5rem] ' />
@@ -20,15 +19,11 @@ const MainHeader = () => {
                             <BiLogoFacebook className='text-stone-700 w-[1.5rem] h-[1.5rem] ' />
                         </div>
                     </div>
-                   
-
                 </div>
                 <div className='sec2 flex justify-center items-center h-full w-full max-2xl:hidden'>
 
                     {/* bbbbbbbbbbbbbbbbb */}
                 </div>
-
-
                 <div className='sec3 flex justify-center items-center h-full w-full'>
                    
                     <div className='sec32 p-8  flex justify-end items-center h-full w-full'>
