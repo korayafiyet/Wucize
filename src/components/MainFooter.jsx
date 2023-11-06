@@ -3,20 +3,15 @@ import { GrLocation } from 'react-icons/gr';
 import { BiSolidPhoneCall } from 'react-icons/bi';
 import { LuMail } from 'react-icons/lu';
 import { RiArrowRightDoubleFill } from 'react-icons/ri';
-
 import { AiOutlineInstagram } from 'react-icons/ai';
 import { AiOutlineTwitter } from 'react-icons/ai';
 import { BiLogoFacebook } from 'react-icons/bi';
-
-
 const MainFooter = () => {
     return (
         <div className='flex justify-center items-center h-content w-full bg-altgri'>
             <div className='flex flex-col justify-center items-center h-full w-full '>
                 {/*  */}
                 <div className='flex justify-center items-center h-[45%] w-full bg-karelaci max-lg:hidden'>
-
-
                     <div className='flex justify-center items-center h-full w-full pt-5 pb-5'>
                         <div className='flex justify-center items-center  h-full w-full border-r-[0.24rem] border-white'>
                             <div className='flex justify-start items-center  h-full w-[80%]'>
@@ -26,7 +21,6 @@ const MainFooter = () => {
                                     <h3>Yıllık Deneyim </h3>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div className='flex justify-center items-center h-full w-full pt-5 pb-5'>
@@ -47,46 +41,10 @@ const MainFooter = () => {
                                     <h3>Ülke Sayısı </h3>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
-
-
-                {/* ////////////////////////////////////////////////////////////////// */}
-
-
-
-
-
-
-
-                {/* //////////////////////////////////////////////////////////////////////////////////// */}
-
-
-
-
-
                 <div></div>
-
-
-
-
-
-
-
-
-                {/* //////////////////////////////////////////////////////////////////////////////////// */}
-
-
-
-
-
-
-
-
-
-
                 <div className='text-stone-700 flex justify-center items-start h-full w-full  max-xl:hidden my-[10rem]'>
                     <div className='flex flex-col justify-center items-center h-full w-1/3 text-sm'>
                         <h2 className='flex justify-start items-center h-[10%] w-[40%] text-left font-bold '>HAKKIMIZDA</h2>
@@ -95,7 +53,6 @@ const MainFooter = () => {
                     <div></div>
                     <div className='flex justify-center items-center h-full w-1/3'>
                         <div className='flex flex-col justify-center items-center h-full w-[50%] mr-[10rem]'>
-
                             <div className='flex justify-center items-center h-[6rem] w-full'>
                                 <div className='flex justify-center items-center h-full w-content px-3'>
                                     <GrLocation className='h-[2rem] w-[2rem] text-stone-700' />
@@ -124,12 +81,9 @@ const MainFooter = () => {
                                     <p>info@dentalcare.com</p>
                                 </div>
                             </div>
-
-
                         </div>
                     </div>
                     <div className='flex flex-col justify-start items-center h-[60%] w-1/3 text-sm '>
-
                         <h4 className='flex justify-center items-center h-[10%] w-full text-left font-bold'>E-BÜLTEN</h4>
                         <p className='flex justify-start items-center h-[20%] w-[60%] text-left'>Haftalık haberler ve güncellemeler için kaydolun</p>
                         <p className='flex justify-start items-center h-[10%] w-[60%] text-left'>E-mail</p>
@@ -142,22 +96,10 @@ const MainFooter = () => {
                                 <li className='flex justify-center items-center h-full w-[2rem]'><BiLogoFacebook className='w-[1.5rem] h-[1.5rem]' /></li>
                                 <li className='flex justify-center items-center h-full w-[2rem]'><AiOutlineTwitter className='w-[1.5rem] h-[1.5rem]' /></li>
                                 <li className='flex justify-center items-center h-full w-[2rem]'><AiOutlineInstagram className='w-[1.5rem] h-[1.5rem]' /></li>
-
                             </ul>
                         </div>
-
                     </div>
-
-
-
-
-                </div>
-
-
-                {/* mobil en alt */}
-
-
-
+                </div>            
             </div>
         </div>
     )
